@@ -16,7 +16,7 @@
     text-align: justify;
     width: 40%;
     margin-left: 10em;
-    margin-top: 8em;
+    margin-top: 7em;
 }
 .vertical-line{
     border-left: 4px solid rgb(245, 87, 87);
@@ -44,4 +44,47 @@
     border-radius: 8px;
     background-color: rgb(245, 87, 87);
     padding: 10px 40px ;
+}
+.ss-title{
+    text-align: center;
+    font-size: 58px;
+}
+.mission-box{
+    display: flex;
+    margin: 0 150px;
+}
+.mission{
+    width: 30%;
+    height: 20em;
+    padding: 30px;
+    text-align: justify;
+    border-radius: 32px;
+    background-color: rgb(220, 236, 255);
+}
+.mission img{
+    width: 40%;
+}
+.vission{
+    width: 30%;
+    height: 20em;
+    padding: 30px;
+    text-align: justify;
+    margin-left: 20px;
+    border-radius: 32px;
+    background-color: rgb(255, 228, 219);
+}
+.vission img{
+    width: 40%;
+}
+.goals{
+    width: 30%;
+    height: 20em;
+    padding: 30px;
+    text-align: justify;
+    margin-left: 20px;
+    border-radius: 32px;
+    background-color: rgb(255, 238, 214);
+}
+.goals img{
+    width: 40%;
 }
