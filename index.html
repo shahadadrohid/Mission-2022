@@ -6,18 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Mission 2022</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display&family=Playfair+Display&family=Poppins:ital@1&family=Roboto+Condensed&family=Roboto+Serif&display=swap"
-        rel="stylesheet">
-
-    <!--My Mission On 2022-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display&family=Playfair+Display&family=Poppins:ital,wght@0,700;1,400&family=Roboto+Condensed&family=Roboto+Serif&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -37,14 +25,12 @@
             </div>
 
             <!--details-->
-            <p>Assalamualaikum. I want to be most focused this year on my studies, on my web development learning
+            <p class="fontfamily">Assalamualaikum. I want to be most focused this year on my studies, on my web
+                development learning
                 journey as well as on building myself as a private tutor.</p>
 
             <!--Anchor-->
-            <a id="explore-button" target="_blank" href="https://github.com/shahadadrohid">Explore Me</a>
-
-            <!--More-->
-            <p>scroll down to explore more about us</p>
+            <a class="anchor-button fontfamily" target="_blank" href="https://github.com/shahadadrohid">Explore Me</a>
         </div>
 
         <!--First Section Img-->
@@ -53,26 +39,26 @@
             <img src="images/Image1.png" alt="picture of a boy">
         </div>
     </section>
-    <section class="second-section">
+    <section class="second-section fontfamily">
 
-        <h1 class="ss-title">My Mission in 2022</h1>
+        <h1 class="ss-title"><span class="ss-titile1">My Mission in</span> <span class="ss-titile2">2022</span></h1>
 
         <div class="mission-box">
 
-            <div class="mission">
+            <div class="mvg-details mission">
                 <img src="images/illustrators/illustrator-1.png" alt="">
                 <h3>Mission</h3>
                 <p>First i want to learn programming as well as create content.Inshaa Allah I want to start
                     Entrepreneurship slowly after. </p>
             </div>
 
-            <div class="vission">
+            <div class="mvg-details vission">
                 <img src="images/illustrators/illustrator-2.png" alt="">
                 <h3>Vission</h3>
                 <p>Inshaa Allah i want to be an Entrepreneur, Programmer and Content Creator.</p>
             </div>
 
-            <div class="goals">
+            <div class="mvg-details goals">
                 <img src="images/illustrators/illustrator-3.png" alt="">
                 <h3>Goals</h3>
                 <p>Since i am learning programming now i need adequate recharge for content creation. Then
@@ -80,13 +66,13 @@
             </div>
         </div>
     </section>
-    <section class="third-section">
+    <section class="third-section fontfamily">
         <div class="tsec-half">
             <img src="images/pictures/coding.png" alt="">
         </div>
         <div class="tsec-half right-half">
             <h1 class="tsec-title">
-                My Web Development journey
+                My Development journey
             </h1>
             <p class="tsec-details">Assalamualaikum. My programming flame started with the Programming Hero course. In
                 the middle of the
@@ -94,24 +80,46 @@
                 Alhamdulillah, meanwhile, the programming hero announced that he would be given the opportunity to reset
                 the course.</p>
 
-            <a class="tsec-anchor" target="_blank" href="https://web.programming-hero.com/student-analytics">Read
+            <a class="anchor-button" target="_blank" href="https://web.programming-hero.com/student-analytics">Read
                 this</a>
         </div>
     </section>
-    <section class="fourth-section">
+    <section class="fourth-section fontfamily">
         <div class="tsec-half left-half">
             <h1 class="tsec-title">Know Our Community</h1>
             <p class="tsec-details">We haven't been able to build our community very well yet. Inshaa Allah we hope we
                 will build a beautiful
                 ocmmunity in a few months. Click the button below to learn more about our community.</p>
-            <a class="tsec-anchor" target="_blank" href="facebook.com/ICTwithShahadadBhai">View this</a>
+            <a class="anchor-button" target="_blank" href="facebook.com/ICTwithShahadadBhai">View this</a>
         </div>
         <div class="tsec-half">
             <img src="images/pictures/project.png" alt="">
         </div>
     </section>
-    <footer class="footer">
-        <h2 class="footer-title">Mission <span>2022</span></h2>
+
+    <section class="first-section fontfamily">
+        <div class="first-sec-half my-image">
+            <img src="images/Image1.png" alt="">
+        </div>
+        <div class="first-sec-half mission-details">
+            <h2>About Me</h2>
+            <p id="about-detils">My name is Mohammad Shahadad Hossain. I am 20 years old now. I preparing now for
+                University admission. I
+                also learning Web Development. Click the button below to know more about me.</p>
+            <a class="anchor-button" target="_blank" href="https://www.facebook.com/mohammadshahadad.4/">Facebook</a>
+            <a class="anchor-button" target="_blank" href="https://github.com/shahadadrohid">Github</a>
+        </div>
+    </section>
+
+    <section class="bonus-part fontfamily">
+        <h1 class="bonus-title">Newsletter</h1>
+        <form class="form" action="">
+            <input id="form-input" type="email">
+            <button id="bonus-button">Subscribe</button>
+        </form>
+    </section>
+    <footer class="footer fontfamily">
+        <h2 class="footer-title">Mission <span id="footeryear">2022</span></h2>
         <p class="footer-details">All reserved by Mohammad Shahadad Hossain</p>
     </footer>
 </body>
